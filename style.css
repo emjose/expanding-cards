@@ -83,10 +83,23 @@ body {
 @media (max-width: 480px) {
   .container {
     width: 100vw;
+    height: 50%;
+    margin-bottom: 150px;
   }
 
   .panel:nth-of-type(4),
   .panel:nth-of-type(5) {
     display: none;
+  }
+
+  .footer {
+    display: block;
+    width: 100%;
+  }
+
+  .toptext {
+    display: block;
+    width: 100%;
+    margin-top: 1px;
   }
 }
