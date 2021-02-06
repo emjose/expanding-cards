@@ -70,6 +70,16 @@ body {
   border: 2px solid red; */
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(240, 239, 239);
+  color: rgb(121, 121, 121);
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   .container {
     width: 100vw;
