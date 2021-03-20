@@ -2,7 +2,10 @@
 
 <a href=#table-of-contents>![Accordion Cards](Assets/inter-005-accordion-cards.png)</a> 
 
+<a href="https://emjose.github.io/expanding-cards">![Accordion Cards](Assets/preview-005-accordion-cards.png)</a> 
+
 #
+
 <p id="table-of-contents"><p>
 
 <a href=#table-of-contents>![Table of Contents](Assets/inter-toc.png)</a>  
