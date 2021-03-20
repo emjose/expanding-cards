@@ -11,6 +11,8 @@
 
 <a href=#table-of-contents>![Accordion Cards](Assets/inter-005-accordion-cards.png)</a> 
 
+<br>
+
 <a href="https://emjose.github.io/expanding-cards">![Accordion Cards](Assets/preview-005-accordion-cards.png)</a> 
 
 #
