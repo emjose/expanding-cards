@@ -26,6 +26,7 @@
 - [Installation](#installation) 
 - [Live Site](#live-site)
 - [Resources](#resources)
+- [Copyright](#copyright)
 - [Let's Connect!](#lets-connect) 
 
 #
@@ -34,7 +35,14 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-<a href=#100days>![Under Construction](Assets/lorem-text.png)</a>
+### Day 5: February 7, 2021
+- Growing up in an Asian and Filipino household, I was raised not to talk about my feelings.
+  
+- Today, more teachers and educators are normalizing talking about your feelings in classrooms.
+
+- For Day 5, I turned a tutorial for accordion cards into a "How are you feeling today?" project.
+
+- The cards feature characters from one of my favorite films, <a href="https://www.pixar.com/feature-films/inside-out#inside-out-1">Inside Out</a>, by Disney and Pixar. 
 
 #
 
@@ -57,7 +65,7 @@ open index.html
 
 <a href="https://emjose.github.io/expanding-cards">![Live Site](Assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/expanding-cards">![Under Construction](Assets/lorem-live.png)</a>
+<a href="https://emjose.github.io/expanding-cards">![Live Site](Assets/005-inside-out.gif)</a>
 
 #
 
@@ -65,7 +73,25 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-<a href=#resources>![Under Construction](Assets/lorem-text.png)</a>
+- #### [Google Fonts](https://fonts.google.com/)
+
+- #### [Pixar Inside Out Website](https://www.pixar.com/feature-films/inside-out#inside-out-1)
+
+- #### [Disney Inside Out Website](https://movies.disney.com/inside-out)
+
+- #### [50 Projects in 50 Days Udemy Course](https://www.udemy.com/course/50-projects-50-days/)
+
+- #### [Expanding Cards YouTube Tutorial](https://youtu.be/69FkUGpw3ok) by [Asish George Tech](https://www.youtube.com/channel/UC9v2BVgmJCQNN_RJKN6pZDw)
+
+#
+
+<p id="copyright"><p>
+
+<a href=#copyright>![Copyright](Assets/inter-copyright.png)</a>
+
+- This project is for made for educational purposes only. 
+  
+- All <a href="https://www.pixar.com/feature-films/inside-out#inside-out-1">Inside Out</a> images and characters are copyright of <a href="https://www.disney.com/">Disney</a> and <a href="https://www.pixar.com/">Pixar</a>. © Disney © Pixar. All Rights Reserved.
 
 #
 
