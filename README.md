@@ -109,5 +109,6 @@ open index.html
 
 <a href=#header>![Back to Top](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314281/Readme%20Headers/inter-congrats_m4p3ck.png)</a>
 
-<!-- Hello World
-hello world -->
+<!-- https://stackoverflow.com/questions/4254389/git-corrupt-loose-object -->
+
+<!-- removed corrupt loose object per Stackoverflow solutions -->
