@@ -38,6 +38,7 @@
 ### Day 5: February 7, 2021
 
 -   Growing up in an Asian and Filipino household, I was raised not to talk about my feelings.
+
 -   Today, more teachers and educators are normalizing talking about your feelings in classrooms.
 
 -   For Day 5, I turned a tutorial for accordion cards into a "How are you feeling today?" project.
@@ -52,13 +53,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/expanding-cards.git && cd expanding-cards
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 
@@ -95,6 +96,7 @@ open index.html
 <a href=#copyright>![Copyright](https://res.cloudinary.com/dn1e07eul/image/upload/v1659391383/Readme%20Headers/inter-copyright_ax53yz.png)</a>
 
 -   This project is for made for educational purposes only.
+
 -   All <a href="https://www.pixar.com/feature-films/inside-out#inside-out-1">Inside Out</a> images and characters are copyright of <a href="https://www.disney.com/">Disney</a> and <a href="https://www.pixar.com/">Pixar</a>. © Disney © Pixar. All Rights Reserved.
 
 #
