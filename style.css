@@ -4,18 +4,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Han+Sans&display=swap");
 
+:root {
+	--white: #fff;
+	--black: #000;
+	--title-color: rgb(0, 149, 255);
+	--mobile-color: rgb(0, 106, 255);
+	--red-outline: 3px solid #d5050d;
+	--yellow-outline: 3px solid rgb(253, 178, 1);
+	--green-outline: 3px solid #009e01;
+	--blue-outline: 3px solid #017bd7;
+	--purple-outline: 3px solid #9724a7;
+	--navy-outline: 3px solid rgb(0, 29, 159);
+	--bebas: "Bebas Neue", cursive;
+	--muli: "Muli", sans-serif;
+	--github-fill: var(--title-color);
+	--github-color: var(--white);
+	--github-focus: var(--black);
+	--footer-text: rgb(107, 107, 107);
+	--footer-background: rgb(248, 248, 248);
+	--panel-1: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1612652062/Inside%20Out/Anger04_kuqgqq.jpg");
+	--panel-2: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1612652062/Inside%20Out/joy04_rps7ix.jpg");
+	--panel-3: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1612651386/Inside%20Out/disgust03_wa833n.jpg");
+	--panel-4: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1612652062/Inside%20Out/sadness04_gtiidh.jpg");
+	--panel-5: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1612652061/Inside%20Out/fear04_sapbbw.jpg");
+	--panel-6: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1612652063/Inside%20Out/insideout05_fbruq1.jpg");
+}
+
 * {
 	box-sizing: border-box;
 }
 
+:focus {
+	outline-offset: 4px;
+}
+
+a:focus {
+	outline: none;
+}
+
 body {
-	font-family: "Muli", sans-serif;
+	font-family: var(--muli);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+	position: absolute;
+	top: 1px;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	overflow: hidden;
+	margin: 0;
+	font-family: var(--bebas);
+	color: var(--title-color);
+	letter-spacing: 3px;
 }
 
 .container {
@@ -31,52 +80,41 @@ body {
 	background-repeat: no-repeat;
 	height: 75vh;
 	border-radius: 20px;
-	color: #fff;
+	color: var(--white);
 	cursor: pointer;
 	flex: 0.5;
 	margin: 10px;
 	position: relative;
-	-webkit-transition: all 700ms ease-in;
-}
-
-.panel h3 {
-	font-size: 24px;
-	position: absolute;
-	bottom: 20px;
-	left: 20px;
-	margin: 0;
-	opacity: 0;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 
 .panel.active {
 	flex: 5;
 }
 
-.panel.active h3 {
-	opacity: 1;
-	transition: opacity 0.3s ease-in 0.4s;
+.panel:nth-of-type(1):focus {
+	outline: var(--red-outline);
 }
 
-.header {
-	position: absolute;
-	top: 1px;
-	font-weight: bold;
-	font-size: 1.5em;
-	/* left: 50%;
+.panel:nth-of-type(2):focus {
+	outline: var(--yellow-outline);
+}
 
-  font-family: "Muli", sans-serif;
-  display: flex;
-  /* align-items: center; */
-	justify-content: center;
-	/* height: 110vh; */
-	overflow: hidden;
-	margin: 0;
-	font-family: "Bebas Neue", cursive;
-	color: rgb(52, 206, 245);
-	letter-spacing: 3px;
-	/* padding: 5px;
-  background-color: white;
-  border: 2px solid red; */
+.panel:nth-of-type(3):focus {
+	outline: var(--green-outline);
+}
+
+.panel:nth-of-type(4):focus {
+	outline: var(--blue-outline);
+}
+
+.panel:nth-of-type(5):focus {
+	outline: var(--purple-outline);
+}
+
+.panel:nth-of-type(6):focus {
+	outline: var(--navy-outline);
 }
 
 .footer {
@@ -84,40 +122,97 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: rgb(248, 248, 248);
-	color: rgb(148, 146, 146);
+	font-size: 16px;
+	background-color: var(--footer-background);
+	color: var(--footer-text);
 	text-align: center;
 }
 
-@media (max-width: 600px) {
-	.header {
-		font-size: 0.9em;
-	}
-	.container {
-		width: 100vw;
-		height: 70%;
-		margin-bottom: 150px;
+.github-corner:focus svg path {
+	fill: var(--github-focus);
+}
+
+.github-corner:focus .octo-arm,
+.github-corner:focus .octo-body {
+	fill: var(--github-color);
+}
+
+.github-corner:hover .octo-arm,
+.github-corner:focus .octo-arm {
+	animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+	0%,
+	100% {
+		transform: rotate(0);
 	}
 
-	.panel:nth-of-type(4),
-	.panel:nth-of-type(5) {
-		display: none;
+	20%,
+	60% {
+		transform: rotate(-25deg);
 	}
 
-	.footer {
-		display: block;
-		width: 100%;
-	}
-
-	.toptext {
-		display: block;
-		width: 100%;
-		margin-top: 1px;
+	40%,
+	80% {
+		transform: rotate(10deg);
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
+	.github-corner {
+		display: none;
+	}
+
 	.header {
-		visibility: hidden;
+		font-size: 1.1em;
+	}
+
+	.container {
+		width: 96%;
+		margin: 10% auto;
+	}
+
+	.panel {
+		height: 60vh;
+	}
+
+	.panel:nth-of-type(1),
+	.panel:nth-of-type(5) {
+		background-position: 20%;
+	}
+
+	.panel:nth-of-type(2) {
+		background-position: 16%;
+	}
+
+	.panel:nth-of-type(3) {
+		background-position: 46%;
+	}
+
+	.panel:nth-of-type(4) {
+		background-position: 12%;
+	}
+
+	.panel:nth-of-type(6) {
+		background-position: 62%;
+	}
+
+	.footer {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 360px) {
+	.header {
+		font-size: 14px;
+	}
+
+	.panel {
+		height: 50vh;
+	}
+
+	.footer {
+		display: none;
 	}
 }
