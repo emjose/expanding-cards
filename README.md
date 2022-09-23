@@ -29,6 +29,8 @@
 -   [Copyright](#copyright)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -44,6 +46,10 @@
 -   For Day 5, I turned a tutorial for accordion cards into a "How are you feeling today?" project.
 
 -   The cards feature characters from one of my favorite films, <a href="https://www.pixar.com/feature-films/inside-out#inside-out-1">Inside Out</a>, by Disney and Pixar.
+
+-   **September 2022 Update:** For accessibility, light text colors were changed to darker hues.
+
+<br>
 
 #
 
@@ -63,6 +69,8 @@ git clone git@github.com:emjose/expanding-cards.git && cd expanding-cards
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -70,6 +78,14 @@ open index.html
 <a href="https://emjose.github.io/expanding-cards">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/expanding-cards">![Live Site](Assets/005-inside-out.gif)</a>
+
+• **[Accordion Cards](https://emjose.github.io/expanding-cards/)** is responsive and keyboard-navigable.
+
+• Each character card can be expanded by mouse click or by keyboard press.
+
+• **[Accordion Cards](https://emjose.github.io/expanding-cards/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+<br>
 
 #
 
@@ -89,6 +105,8 @@ open index.html
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
+<br>
+
 #
 
 <p id="copyright"><p>
@@ -97,7 +115,9 @@ open index.html
 
 -   This project is for made for educational purposes only.
 
--   All <a href="https://www.pixar.com/feature-films/inside-out#inside-out-1">Inside Out</a> images and characters are copyright of <a href="https://www.disney.com/">Disney</a> and <a href="https://www.pixar.com/">Pixar</a>. © Disney © Pixar. All Rights Reserved.
+-   All <a href="https://www.pixar.com/feature-films/inside-out#inside-out-1">Inside Out</a> images and characters are copyright of © <a href="https://www.disney.com/">Disney</a> and © <a href="https://www.pixar.com/">Pixar</a>. All Rights Reserved.
+
+<br>
 
 #
 
